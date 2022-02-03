@@ -1,0 +1,24 @@
+﻿<Window x:Class="dabe_project.info_devices"
+        WindowStartupLocation="CenterScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dabe_project"
+        mc:Ignorable="d"
+        Title="info_devices" Height="450" Width="800">
+    <Grid>
+        <Grid HorizontalAlignment="Center" Height="384" Margin="66,10,0,0" VerticalAlignment="Center" Width="671">
+            <Button x:Name="back" Content="Назад" HorizontalAlignment="Left" Margin="151,349,0,0" VerticalAlignment="Top" Width="164" Click="Back_Click" Height="38" Background="#FF82A6FF" FontFamily="Times New Roman" FontSize="24" FontWeight="Bold"/>
+            <Button x:Name="disketa" Content="Дискета" HorizontalAlignment="Left" VerticalAlignment="Top" Width="164" Height="40" Click="disketa_Click" Background="White" FontFamily="Times New Roman" FontSize="24" FontWeight="Bold"/>
+            <Button x:Name="dvd_disk" Content="DVD - диск" HorizontalAlignment="Left" Margin="169,0,0,0" VerticalAlignment="Top" Width="164" Height="40" Click="dvd_disk_Click" FontFamily="Times New Roman" FontSize="24" FontWeight="Bold" Background="White"/>
+            <Button x:Name="usb_flash" Content="USB - flash" HorizontalAlignment="Left" Margin="338,0,0,0" VerticalAlignment="Top" Width="164" Height="40" Click="usb_flash_Click" FontFamily="Times New Roman" FontSize="24" Background="White" FontWeight="Bold"/>
+            <Button x:Name="hdd" Content="Жесткий диск" HorizontalAlignment="Left" Margin="507,0,0,0" VerticalAlignment="Top" Width="164" Height="40" Click="hdd_Click" FontSize="24" FontFamily="Times New Roman" FontWeight="Bold" Background="White"/>
+            <Button x:Name="begin_test" Content="Пройти тестирование" HorizontalAlignment="Left" Margin="336,349,0,0" VerticalAlignment="Top" Width="164" Height="38" Click="begin_test_Click" Background="#FF7CA2FD" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold"/>
+            <Image x:Name="lab_img" HorizontalAlignment="Left" Height="294" VerticalAlignment="Center" Width="333"/>
+            <TextBox x:Name="descript_device" HorizontalAlignment="Left" Height="294" Margin="338,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="333" IsReadOnly="True"/>
+
+        </Grid>
+
+    </Grid>
+</Window>
