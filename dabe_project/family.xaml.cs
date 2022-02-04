@@ -8,10 +8,12 @@ namespace dabe_project
     {
         private SqlConnection connection;
         private Window parent;
-        public family(SqlConnection connection, Window parent)
+        private string login;
+        public family(SqlConnection connection, string login, Window parent)
         {
             InitializeComponent();
             this.parent = parent;
+            this.login = login;
             this.connection = connection;
             this.Show();
         }
@@ -23,7 +25,7 @@ namespace dabe_project
         }
         private void Next_Click(object sender, RoutedEventArgs e)
         {
-            new info_devices(connection, this);
+            new info_devices(connection, login, this);
             this.Visibility = Visibility.Hidden;
         }
     }

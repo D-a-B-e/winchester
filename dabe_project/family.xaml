@@ -14,7 +14,7 @@
             </TextBox>
             <TextBox TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Внутренние накопители находятся в системном блоке ПК и подключаются к специальным разъёмам на материнской плате. Внешние и переносные накопители находится в собственном корпусе и подключается к компьютеру через стандартные порты ввода/вывода. Внешние накопители информации используются для резервного копирования и хранения информации, а также для транспортировки данных с одного компьютера на другой." Margin="30,205,30,67" FontFamily="Times New Roman" FontSize="22"/>
             <Button Content="Дальше" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="405,403,0,0" Click="Next_Click" FontFamily="Times New Roman" FontWeight="Bold" FontSize="24" Background="#FF6987FF" Width="150" Height="42"/>
-            <Button Content="Назад" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="242,403,0,0" Click="Back_Click" FontFamily="Times New Roman" FontSize="24" FontWeight="Bold" Background="#FF656EFF" Width="150" Height="42"/>
+            <Button Content="Выйти" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="242,403,0,0" Click="Back_Click" FontFamily="Times New Roman" FontSize="24" FontWeight="Bold" Background="#FF656EFF" Width="150" Height="42"/>
         </Grid>
     </Grid>
 </Window>

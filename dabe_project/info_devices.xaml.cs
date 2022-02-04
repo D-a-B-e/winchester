@@ -11,9 +11,11 @@ namespace dabe_project
     {
         private SqlConnection connection;
         private Window parent;
-        public info_devices(SqlConnection connection, Window parent)
+        private string login;
+        public info_devices(SqlConnection connection, string login, Window parent)
         {
             InitializeComponent();
+            this.login = login;
             this.parent = parent;
             this.connection = connection;
             this.Show();
@@ -101,7 +103,7 @@ namespace dabe_project
 
         private void begin_test_Click(object sender, RoutedEventArgs e)
         {
-            new Test(connection, this);
+            new Test(connection, login, this);
             this.Visibility = Visibility.Hidden;
         }
     }

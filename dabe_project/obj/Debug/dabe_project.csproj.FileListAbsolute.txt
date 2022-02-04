@@ -39,3 +39,9 @@ C:\Users\Dabe\Desktop\dabe_project\obj\Debug\dabe_project.csproj.AssemblyReferen
 C:\Users\Dabe\Desktop\dabe_project\obj\Debug\dabe_project.csproj.SuggestedBindingRedirects.cache
 C:\Users\Dabe\Desktop\dabe_project\obj\Debug\family.g.cs
 C:\Users\Dabe\Desktop\dabe_project\obj\Debug\family.baml
+C:\Users\Dabe\Desktop\dabe_project\obj\Debug\register.g.cs
+C:\Users\Dabe\Desktop\dabe_project\obj\Debug\signup.g.cs
+C:\Users\Dabe\Desktop\dabe_project\obj\Debug\register.baml
+C:\Users\Dabe\Desktop\dabe_project\obj\Debug\signup.baml
+C:\Users\Dabe\Desktop\dabe_project\obj\Debug\admin.g.cs
+C:\Users\Dabe\Desktop\dabe_project\obj\Debug\admin.baml

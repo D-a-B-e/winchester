@@ -45,7 +45,7 @@ namespace dabe_project
 
         private void start_prog_Click(object sender, RoutedEventArgs e)
         {
-            new family(connection, this);
+            new Signup(connection, this);
             this.Visibility = Visibility.Hidden;
         }
     }
